@@ -8,7 +8,7 @@ body {
     cursor: pointer;
     background-color: rgba(193, 193, 193, 0.1);
     color: #fff;
-    max-height: 60vh;
+    min-height: 60vh;
 }
 
 .card:hover {
@@ -48,4 +48,12 @@ body {
 
 .categories:hover{
   color: #fff;
+}
+
+@media screen and (max-width:900px) {
+
+    .card{
+        margin-left: 20px;
+    }
+    
 }
