@@ -32,7 +32,7 @@ const News = (props)=> {
 
 
   useEffect(()=>{
-    document.title = `ONE PIECE NEWS - ${capitalizeFirstLetter(props.category)}`
+    document.title = `OP NEWS - ${capitalizeFirstLetter(props.category)}`
     newsUpdate();
   },[])
   
